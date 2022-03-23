@@ -20,7 +20,7 @@ async def on_connect():
 
 @bot.command()
 async def time(ctx):
-    await ctx.message.delete
+    await ctx.message.delete()
     await ctx.send ('Current date and time:')
     await ctx.send (now.strftime('%Y-%m-%d %H:%M:%S'))
 
