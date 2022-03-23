@@ -1,4 +1,4 @@
 # nigbot
 nigbot
 
-https://discord.gg/EQhDHhhRM7
+https://discord.com/invite/EQhDHhhRM7
