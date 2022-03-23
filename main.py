@@ -31,7 +31,7 @@ async def ping(ctx):
 
 @bot.command()
 async def neko(ctx):
-    await ctx.delete
+    await ctx.message.delete()
     neko = requests.get("https://nekos.life/api/v2/img/neko").json()["url"]
     await ctx.send(neko)
 
@@ -42,9 +42,15 @@ async def vaporeon(ctx):
 
 @bot.command()
 async def minion(ctx):
-    await ctx.delete
+    await ctx.message.delete()
     minion = requests.get("https://api.benny.fun/v1/minion").json()["minion"]
     await ctx.send(minion)
+
+@bot.command()
+async def risesrc(ctx):
+    await ctx.message.delete()
+    await ctx.send('guys i found rise src')
+    await ctx.send('https://github.com/reactdev1337/reactselfbot')
 
 @bot.command()
 async def cocks(ctx):
