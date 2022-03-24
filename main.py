@@ -64,4 +64,4 @@ async def cocks(ctx):
     await ctx.message.delete()
     await ctx.send('balls')
 
-bot.run(TOKEN)
+nig.run(TOKEN)
