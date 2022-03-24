@@ -1,6 +1,5 @@
 import os
 import sys
-import discord_rpc
 import datetime
 import asyncio
 import json
