@@ -1,9 +1,6 @@
 import os
 import sys
-<<<<<<< HEAD
 import discord_rpc
-=======
->>>>>>> 3f6b601f6dc30f6e3be9392435b1ae3fb7670910
 import datetime
 import asyncio
 import json
@@ -21,21 +18,14 @@ now = datetime.datetime.now()
 async def on_connect():
     print('Logged into a nigger')
 
-<<<<<<< HEAD
-@bot.command()
-=======
 @nig.command()
->>>>>>> 3f6b601f6dc30f6e3be9392435b1ae3fb7670910
 async def time(ctx):
     await ctx.message.delete()
     await ctx.send ('Current date and time:')
     await ctx.send (now.strftime('%Y-%m-%d %H:%M:%S'))
 
-<<<<<<< HEAD
 @bot.command()
-=======
 @nig.command()
->>>>>>> 3f6b601f6dc30f6e3be9392435b1ae3fb7670910
 async def ping(ctx):
     await ctx.message.delete()
     await ctx.send('pong')
