@@ -1,9 +1,6 @@
 import os
 import sys
-<<<<<<< HEAD
 import discord_rpc
-=======
->>>>>>> 3f6b601f6dc30f6e3be9392435b1ae3fb7670910
 import datetime
 import asyncio
 import json
