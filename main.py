@@ -24,7 +24,6 @@ async def time(ctx):
     await ctx.send ('Current date and time:')
     await ctx.send (now.strftime('%Y-%m-%d %H:%M:%S'))
 
-@bot.command()
 @nig.command()
 async def ping(ctx):
     await ctx.message.delete()
@@ -59,8 +58,6 @@ async def risesrc(ctx):
 #    await ctx.send('insert nighty image here')
 
 #try and make webhooks thatll be cool
-
-@nig.command
 
 @nig.command()
 async def cocks(ctx):
